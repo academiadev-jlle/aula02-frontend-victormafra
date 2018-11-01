@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Eventos</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <strong id="titulo">Eventos</strong>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <form class="form-inline form-acoes">
+                <div class="form-group mb-2">
+                    <label for="pesquisa" class="sr-only"></label>
+                    <input type="text" class="form-control" id="pesquisa" placeholder="People, planets.">
+                </div>                
+                <button type="button" 
+                        class="btn btn-primary mb-2" 
+                        id="btn-cadastrar">Enviar</button>
+            </form>
+
+            <table class="table tabela-pessoas" id="tabela-pessoas">
+                <thead>
+                    <tr id="tr-header">
+                        <th id="header-1" >Nome</th>
+                        <th id="header-2" >Idioma que conhece</th>
+                        <th id="header-3" >Cor dos olhos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="infos">
+                        <td class="info-1"></td>
+                        <td class="info-2"></td>
+                        <td class="info-3"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+    <script src="form.js"></script>
+  </body>
+</html>
